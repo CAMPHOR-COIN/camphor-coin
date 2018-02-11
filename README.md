@@ -4,12 +4,13 @@
 
 ```
 $ go get github.com/CAMPHOR-COIN/camphor-coin
+$ cd $GOROOT/src/github.com/CAMPHOR-COIN/camphor-coin
+$ dep ensure
 ```
 
 ## サーバーの起動方法
 
 ```
-$ cd $GOROOT/src/github.com/CAMPHOR-COIN/camphor-coin
 $ go run server.go
 ```
 
